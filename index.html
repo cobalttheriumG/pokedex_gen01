@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokémon Gen-01 || Pokédex</title>
+  </head>
+  <body>
+    <div class="app" id="app">
+      <div class="cursor" id="base-cursor">
+        <div class="cursor-outer">
+          <div class="cursor-inner"></div>
+        </div>
+      </div>
+      <div class="container">
+        <header class="header" id="header">
+          <img
+            src="./assets/pokemon-logo-png-pokemon-logo-png-2000.png"
+            alt="logo"
+            width="78px"
+          />
+        </header>
+        <section class="section" id="section">
+          <div class="flex-box-top">
+            <div class="wrapper-box-1">
+              <div class="head-title">
+                <h1 class="title-text font-title">Pokémon <br />Gen-01</h1>
+                <h3 class="title-text">Pokédex</h3>
+              </div>
+              <div class="search-input">
+                <input
+                  type="search"
+                  name="search"
+                  id="search-poke"
+                  placeholder="Search Pokemon"
+                />
+              </div>
+            </div>
+            <div class="wrapper-box-2">
+              <h4>Pokémon Details :</h4>
+              <div class="details-wrapper">
+                <h1 class="font-title">
+                  Click <br />
+                  Pokémon <br />
+                  for <br />
+                  Details
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="flex-box-bot">
+            <div class="pokemons-container"></div>
+          </div>
+        </section>
+        <footer class="footer" id="footer">
+          <div class="copyright-wrapper">
+            <div class="copyright">
+              <div class="side-left">
+                <span class="copyright-text">REST API by POKEAPI</span><br />
+                <span class="copyright-text">SITE by CHRNBM</span>
+              </div>
+              <div class="side-right">
+                <span class="copyright-text"
+                  >&copyPokémon Gen-01 Pokédex, 2020</span
+                >
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
